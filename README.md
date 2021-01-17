@@ -9,4 +9,3 @@ Die Seite greift mithilfe von Axios über TMDB API auf die Datenbank von verschi
 Serien zu, und zeigt diese in Echtzeit an. Das Banner zeigt bei jeder Aktualisierung der 
 Seite einen anderen Film im Spotlight an, mit passender Beschreibung.
 Die Seite ist außerdem mobile-responsive.
-7
