@@ -29,6 +29,7 @@
     object-fit: contain;
 }
 .nav__icon {
+    display: inline-block;
     color: #fff;
     cursor: pointer;
     font-size: 35px !important;
@@ -40,6 +41,7 @@
     object-fit: contain;
 }
 .nav__iconWorld {
+    display: inline-block;
     color: #fff;
     cursor: pointer;
     font-size: 35px !important;
@@ -51,6 +53,7 @@
     object-fit: contain;
 }
 .nav__iconList {
+    display: inline-block;
     color: #fff;
     cursor: pointer;
     font-size: 35px !important;
@@ -61,5 +64,12 @@
     margin-top: auto;
     margin-bottom: auto;
     object-fit: contain;
+}
+@media only screen and (max-width: 480px) {
+    .nav__icon,
+    .nav__iconWorld,
+    .nav__iconList {
+        opacity: 0;
+    }
 }
 
